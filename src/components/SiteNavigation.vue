@@ -40,7 +40,7 @@
               在结果中选择一个城市，这将带你到当前天气为你选择。
             </li>
             <li>
-              通过点击右上角的“+”图标来追踪城市。这将保存城市，以便稍后在主页上查看。
+              通过点击右上角的"+"图标来追踪城市。这将保存城市，以便稍后在主页上查看。
             </li>
           </ol>
 
@@ -74,6 +74,7 @@ const addCity = () => {
     id: uid(),
     state: route.params.state,
     city: route.params.city,
+    adcode: route.query.adcode,
     coords: {
       lat: route.query.lat,
       lng: route.query.lng,
