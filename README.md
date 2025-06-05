@@ -1,6 +1,6 @@
 # weatherApp
 
-This template should help get you started developing with Vue 3 in Vite.
+使用Vue3写的一个demo，用了高德地图的API(感觉有点弱鸡。只能预测三天的天气，也没有每小时天气预报功能)
 
 ## Recommended IDE Setup
 
